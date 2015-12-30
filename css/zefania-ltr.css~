@@ -1,0 +1,141 @@
+﻿ body {
+  background: url(../images/picture.jpg) no-repeat right 20%;  
+  overflow-y: scroll;
+}
+
+.treeview ul{ /*CSS for Simple Tree Menu*/
+margin: 0;
+padding: 0;
+}
+
+.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+list-style-type: none;
+padding-left: 0px;
+margin-bottom: 3px;
+}
+
+.treeview li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+cursor: hand !important;
+cursor: pointer !important;
+}
+
+
+.treeview li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+display: none; /*Hide them by default. Don't delete. */
+}
+
+.treeview .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+cursor: default;
+}
+
+a {
+    text-decoration: none;
+	color: #000;
+}
+a:hover {
+    font-weight: italic;
+}
+a:focus {
+   font-weight: italic;
+}
+a:active {
+   font-weight: italic;
+}
+
+ .floattop1 {
+  position:fixed;
+  _position:absolute; 
+  height: 3%;
+  width: 5%;
+  top:2%;
+  overflow-y: none;
+	}
+
+	
+ .floattop2 {
+  position:fixed;
+  _position:absolute; 
+  height: 5%;
+  width: 5%;
+  top:5%;
+  right: 0%;
+  overflow-y: none;
+	}
+
+  .floatsearch {
+  position:fixed;
+  _position:absolute; 
+  height: 5%;
+  width: 15%;
+  top:5%;
+  right: 20%;
+  overflow-y: none;
+	}	
+	
+ .floatleft {
+  position:fixed;
+  _position:absolute; 
+  height: 90%;
+  width: 5%;
+  top:10%;
+  overflow-y: scroll;
+  display: none;
+	}
+	
+ .floatright {
+  position:fixed;
+  _position:absolute; 
+  right: 0%;
+  height: 84%;
+  width: 5%;
+  top:10%;
+  overflow-y: scroll;
+  display: none;
+	}	
+
+.chapterbody1 {
+  border: 3px solid #623462;
+  position:fixed;
+  _position:absolute;
+  display: none;
+  height: 90%;
+  left: 6%;
+  top:10%;
+  width: 100;
+  overflow-y: auto;
+ }
+ 
+ .chapterbody2 {
+  border: 3px solid #845635;
+  position:fixed;
+  _position:absolute;
+  display: none;
+  height: 84%;
+  right: 12%;
+  top:15%;
+  width: 10%;
+  overflow-y:auto;	 
+}
+ 
+  .floatfont {
+  position:fixed;
+  _position:absolute; 
+  height: 5%;
+  width: 15%;
+  top:2%;
+  left: 18%;
+  overflow-y: none;
+	}
+	
+	
+.searchresults {
+  border: 3px solid #cccccc;
+  position:fixed;
+  _position:absolute;
+  display: none;
+  height: 84%;
+  left: 1%;
+  top:10%;
+  width: 98%;
+  overflow-y: none;
+ }
